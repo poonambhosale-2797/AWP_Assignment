@@ -1,0 +1,46 @@
+<!<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <script src="day5(2).js"></script>
+        <style>
+            .img {
+                height: 700px;
+                width: 400px;
+                display: flex;
+                align-items: center;
+                padding-left: 200px;
+                margin-top: 2px;
+            }
+
+            .center {
+                display: flex;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                margin-top: 2px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="img"><img src="lappi.jpg" /></div>
+
+        <div class="center">
+            <div> Please Do Like & Comment</div>
+            <div>
+                <!-- logic for like now-->
+                <button id="btnid" onclick="likeHere()">Like 1</button>
+
+                <button onclick="commentHere()">Comment Now</button>
+            </div>
+        </div>
+        <!-- Will Contain all the comment-->
+        <div id="commentBox"></div>
+    </body>
+
+    </html>
